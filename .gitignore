@@ -1,0 +1,14 @@
+CookSaveProject-6
+input_dir
+myvenv
+runs
+test_dataset
+test.py
+yolov8_OD.ipynb
+test-veg-1
+cert.pem
+key.pem
+*.out
+*.pyc
+
+
