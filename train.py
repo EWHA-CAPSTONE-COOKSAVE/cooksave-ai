@@ -16,13 +16,6 @@ import torch
 # dataset = version.download("yolov8")
 
 
-# from roboflow import Roboflow
-# rf = Roboflow(api_key="U1jVQ7l0AIvIU7wnuodW")
-# project = rf.workspace("testveg").project("test-veg")
-# version = project.version(1)
-# dataset = version.download("yolov8")
-
-
 img_list = glob('/test-veg-1/train/images/*.jpg') # 트레인 이미지 경로
 val_img_list = glob('/test-veg-1/test/images*.jpg') # 테스트 이미지 경로
 
