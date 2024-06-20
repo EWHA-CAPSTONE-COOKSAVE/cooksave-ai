@@ -86,9 +86,6 @@ def predict():
         
         # 라벨 변환
         transformed_labels = transform_labels(translated_labels)
-        transformed_labels = [{"label":'양파', "count": 1, "icon":3},{"label":'오이', "count": 2, "icon":5}]
-
-
 
     return jsonify(transformed_labels), 200
 
@@ -100,4 +97,3 @@ if __name__ == '__main__':
     #app.debug=True
     #app.run(host="0.0.0.0", port=443, ssl_context=ssl_context)
     app.run(host='0.0.0.0' )
-#ssl_context=('cert.pem', 'key.pem') 일단 이거 안돌아가서 잠깐 뺴놧서용
